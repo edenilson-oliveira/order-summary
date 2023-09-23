@@ -1,0 +1,102 @@
+@charset 'UTF-8';
+@import url('https://fonts.googleapis.com/css2? family= Red+Hat+Display:wght@500;700;900 & display=swap');
+
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
+body{
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  background-color: hsl(225, 100%, 94%);
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+main{
+  width: 300px;
+  height: 520px;
+  background-color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 1px 1px 5px #00000067;
+}
+
+.imagem{
+  width: 300px;
+  height: 140px;
+  background-image: url(imagens/illustration-hero.svg);
+  background-size: contain;
+}
+
+.conteudo{
+  margin: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+h1,p{
+  text-align: center;
+  padding: 5px;
+}
+
+#pagamento{
+  display: flex;
+  margin: 20px 0px;
+  width: 270px;
+  height: 60px;
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 5px;
+  font-weight: 500;
+}
+
+#pagamento img{
+  margin: 5px;
+}
+
+span{
+  display: inline-block;
+  padding: 5px;
+  text-align: justify;
+}
+
+section a{
+  display: inline-block;
+  padding: 20px 0px 0px 25px;
+  font-size: 0.9em;
+  color: hsl(225, 75%, 52%);
+  font-weight: 700;
+}
+
+section a:hover{
+  color: hsl(245, 75%, 52%,70%);
+}
+
+button{
+  width: 100%;
+  height: 50px;
+  margin: 5px 0px;
+  border-radius: 10px;
+  border: none;
+  font-size: 1em;
+  font-weight: 600;
+}
+
+.btn-continuar{
+  background-color:  hsl(245, 75%, 52%);
+  color: white;
+  box-shadow: 1px 5px 2px 2px #3829E011;
+}
+
+.btn-continuar:hover{
+  background-color: hsla(245, 75%, 52%,70%)
+}
+.btn-cancelar{
+  background-color: white;
+  color: hsl(224, 23%, 55%);
+}
